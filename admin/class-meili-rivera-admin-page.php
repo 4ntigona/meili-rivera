@@ -24,12 +24,16 @@ class Meili_Rivera_Admin_Page
 
     public function add_admin_menu()
     {
-        add_management_page(
+        $icon = 'data:image/svg+xml;base64,' . base64_encode('<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.35904 1H4L7.64081 15H12L8.35904 1Z" fill="white"/></svg>');
+
+        add_menu_page(
             'Meili Rivera',
             'Meili Rivera',
             'manage_options',
             'meili-rivera-admin',
-            [$this, 'render_page']
+            [$this, 'render_page'],
+            $icon,
+            30 // Position below Comments
         );
     }
 
@@ -61,7 +65,7 @@ class Meili_Rivera_Admin_Page
 
     public function enqueue_scripts($hook)
     {
-        if ($hook !== 'tools_page_meili-rivera-admin')
+        if ($hook !== 'toplevel_page_meili-rivera-admin')
             return;
 
         // Simple inline JS for the batch processing, to avoid an extra file for now.
@@ -196,7 +200,7 @@ class Meili_Rivera_Admin_Page
                     $.post(ajaxurl, {
                         action: 'meili_rivera_get_total',
                         nonce: '<?php echo wp_create_nonce('meili_rivera_batch_nonce'); ?>'
-                        }, function (res) {
+                    }, function (res) {
                         if (res.success) {
                             const total = res.data.total;
                             // Batch size is 50 defined in PHP

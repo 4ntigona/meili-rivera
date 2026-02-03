@@ -93,7 +93,7 @@ final class Meili_Rivera_Plugin
 
     public function add_settings_link($links)
     {
-        $settings_link = '<a href="' . admin_url('tools.php?page=meili-rivera-admin') . '">' . __('Configurações', 'meili-rivera') . '</a>';
+        $settings_link = '<a href="' . admin_url('admin.php?page=meili-rivera-admin') . '">' . __('Configurações', 'meili-rivera') . '</a>';
         array_unshift($links, $settings_link);
         return $links;
     }
