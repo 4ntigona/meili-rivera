@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "meili-rivera/products",
+  "version": "0.1.0",
+  "title": "Meili Products",
+  "category": "widgets",
+  "icon": "products",
+  "description": "Exibe produtos do índice Meilisearch.",
+  "supports": {
+    "html": false,
+    "interactivity": true
+  },
+  "textdomain": "meili-rivera",
+  "editorScript": "file:./index.js",
+  "viewScriptModule": "file:./view.js",
+  "render": "file:./render.php"
+}

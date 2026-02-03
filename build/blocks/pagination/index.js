@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=window.React,n=window.wp.blocks,i=window.wp.blockEditor,t=JSON.parse('{"UU":"meili-rivera/pagination"}');(0,n.registerBlockType)(t.UU,{edit:function(){const n=(0,i.useBlockProps)();return(0,e.createElement)("div",{...n},(0,e.createElement)("p",null,"Meili Rivera Pagination (Preview no Frontend)"))},save:function(){return null}})})();

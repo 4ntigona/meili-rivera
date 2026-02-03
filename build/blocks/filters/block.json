@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "meili-rivera/filters",
+  "version": "0.1.0",
+  "title": "Meili Filters",
+  "category": "widgets",
+  "icon": "filter",
+  "description": "Exibe filtros (facetas) para a busca.",
+  "supports": {
+    "html": false,
+    "interactivity": true
+  },
+  "textdomain": "meili-rivera",
+  "editorScript": "file:./index.js",
+  "viewScriptModule": "file:./view.js",
+  "render": "file:./render.php",
+  "attributes": {
+    "attribute": {
+      "type": "string",
+      "default": "product_cat"
+    },
+    "label": {
+      "type": "string",
+      "default": "Categorias"
+    }
+  }
+}
