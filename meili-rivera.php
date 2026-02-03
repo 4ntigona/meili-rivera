@@ -89,6 +89,25 @@ final class Meili_Rivera_Plugin
         register_block_type(MEILI_RIVERA_PATH . 'build/blocks/products');
         register_block_type(MEILI_RIVERA_PATH . 'build/blocks/filters');
         register_block_type(MEILI_RIVERA_PATH . 'build/blocks/pagination');
+
+        // Pass PHP Constants to JS Store
+        add_action('enqueue_block_assets', function () {
+            $host = defined('MEILI_HOST') ? MEILI_HOST : 'http://127.0.0.1:7700';
+            $key = defined('MEILI_PUBLIC_KEY') ? MEILI_PUBLIC_KEY : (defined('MEILI_MASTER_KEY') ? MEILI_MASTER_KEY : '');
+            $index = defined('MEILI_INDEX_NAME') ? MEILI_INDEX_NAME : 'wordpress_content';
+
+            $data = [
+                'host' => $host,
+                'publicKey' => $key,
+                'indexName' => $index,
+            ];
+
+            wp_add_inline_script(
+                'meili-rivera-products-view-script', // This handle originates from block.json viewScriptModule or viewScript
+                'window.MeiliBlockData = ' . json_encode($data) . ';',
+                'before'
+            );
+        });
     }
 
     public function add_settings_link($links)
