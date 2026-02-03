@@ -1,0 +1,18 @@
+{
+    "name": "rivera/meili-rivera",
+    "description": "Integração Meilisearch para WordPress com Interactivity API.",
+    "require": {
+        "meilisearch/meilisearch-php": "^1.6",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "MeiliRivera\\": "includes/"
+        }
+    }
+}
