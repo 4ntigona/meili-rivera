@@ -87,15 +87,17 @@ class Meili_Rivera_Indexer
             }
         }
 
-        // 3. Index ACF Fields (Abstracted Logic)
+        // 3. Index ACF Fields (Smart Resolution)
         $acf_fields = get_option(MEILI_RIVERA_OPTION_ACF, []);
         if (!empty($acf_fields) && function_exists('get_field')) {
             foreach ($acf_fields as $field_name) {
-                $field_value = get_field($field_name, $post_id);
-                if ($field_value) {
-                    // Normalize array values to string for simpler searching, or keep as array if needed.
-                    // For now, mirroring old logic: implode if array.
-                    $document[$field_name] = is_array($field_value) ? implode(' ', $field_value) : $field_value;
+                // Use get_field_object to check type
+                $field_object = get_field_object($field_name, $post_id);
+                $value = get_field($field_name, $post_id);
+
+                if ($value) {
+                    $resolved_value = $this->resolve_acf_value($value, $field_object);
+                    $document[$field_name] = $resolved_value;
                 }
             }
         }
