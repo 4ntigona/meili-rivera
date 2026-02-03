@@ -146,4 +146,59 @@ class Meili_Rivera_Indexer
 
         return 0;
     }
+    /**
+     * Resolves ACF values from IDs to Human-Readable Titles for Relay/Post types.
+     * 
+     * @param mixed $value
+     * @param array|bool $field_object
+     * @return mixed
+     */
+    private function resolve_acf_value($value, $field_object)
+    {
+        if (!$field_object || !isset($field_object['type'])) {
+            return is_array($value) ? implode(' ', $value) : $value;
+        }
+
+        $type = $field_object['type'];
+
+        // Helper to get title/name from an ID
+        $get_label = function ($id) use ($type) {
+            if (is_numeric($id)) {
+                if (in_array($type, ['post_object', 'relationship'])) {
+                    return get_the_title($id);
+                }
+                if ($type === 'taxonomy') {
+                    $term = get_term($id);
+                    return ($term && !is_wp_error($term)) ? $term->name : '';
+                }
+                if ($type === 'user') {
+                    $user = get_user_by('id', $id);
+                    return ($user) ? $user->display_name : '';
+                }
+            }
+            // If it's an object already (ACF can return objects)
+            if (is_object($id)) {
+                if (isset($id->post_title))
+                    return $id->post_title;
+                if (isset($id->name))
+                    return $id->name;
+                if (isset($id->display_name))
+                    return $id->display_name;
+            }
+            return $id;
+        };
+
+        if (in_array($type, ['post_object', 'relationship', 'taxonomy', 'user'])) {
+            if (is_array($value)) {
+                $resolved = array_map($get_label, $value);
+                // Return as indexed array of strings for Faceting support in Meilisearch
+                return array_values(array_filter($resolved));
+            } else {
+                return $get_label($value);
+            }
+        }
+
+        // Fallback for text/simple fields
+        return is_array($value) ? implode(' ', $value) : $value;
+    }
 }
