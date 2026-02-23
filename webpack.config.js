@@ -23,6 +23,7 @@ const createConfig = (name, entry, isModule = false) => {
         config.output = {
             ...config.output,
             module: true,
+            clean: false,
             library: {
                 type: 'module',
             },
@@ -35,6 +36,7 @@ const createConfig = (name, entry, isModule = false) => {
         config.output = {
             ...config.output,
             module: false,
+            clean: false,
             // library type will default to 'window' or similar via wpConfig
         };
         config.experiments = {

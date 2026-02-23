@@ -54,7 +54,8 @@ if (empty($facet_data) && taxonomy_exists($taxonomy)) {
 ?>
 <?php // The <div> is the Interactivity API root element. <details> is a presentational wrapper inside. ?>
 <div <?php echo get_block_wrapper_attributes(['class' => 'meili-filter-block']); ?>
-    data-wp-interactive="meiliRivera/search">
+    data-wp-interactive="meiliRivera/search"
+    data-wp-context='<?php echo esc_attr(wp_json_encode(["searchQuery" => ""])); ?>'>
     <details class="meili-filter-accordion">
         <summary class="meili-filter-summary">
             <?php echo esc_html($label); ?>
@@ -63,14 +64,22 @@ if (empty($facet_data) && taxonomy_exists($taxonomy)) {
         <?php if (empty($facet_data)): ?>
             <p class="meili-filter-empty">Nenhuma opção disponível.</p>
         <?php else: ?>
+            <div class="meili-filter-search-wrapper">
+                <input type="text" 
+                       class="meili-filter-search-input" 
+                       placeholder="Buscar <?php echo esc_attr(strtolower($label)); ?>..." 
+                       data-wp-on--input="actions.updateSearchQuery" />
+            </div>
             <ul class="meili-filters-list">
                 <?php foreach ($facet_data as $item):
                     $context = [
                         'listName' => $taxonomy,
                         'value' => $item['slug'],
+                        'itemName' => strtolower(remove_accents($item['name']))
                     ];
                     ?>
-                    <li data-wp-context="<?php echo esc_attr(wp_json_encode($context)); ?>">
+                    <li data-wp-context="<?php echo esc_attr(wp_json_encode($context)); ?>"
+                        data-wp-style--display="callbacks.getDisplay">
                         <label class="meili-filter-label">
                             <input type="checkbox" data-wp-on--change="actions.setFilter" <?php checked(in_array($item['slug'], $active_filters)); ?>>
                             <span class="meili-filter-name"><?php echo esc_html($item['name']); ?></span>
@@ -119,6 +128,26 @@ if (empty($facet_data) && taxonomy_exists($taxonomy)) {
 
     details[open]>.meili-filter-summary::after {
         transform: rotate(90deg);
+    }
+
+    .meili-filter-search-wrapper {
+        padding: 8px 12px;
+        border-bottom: 1px solid #f0f0f0;
+        margin-bottom: 8px;
+    }
+
+    .meili-filter-search-input {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1px solid #e2e8f0;
+        border-radius: 4px;
+        font-size: 0.9em;
+        outline: none;
+        transition: border-color 0.2s;
+    }
+
+    .meili-filter-search-input:focus {
+        border-color: #a0aec0;
     }
 
     .meili-filters-list {

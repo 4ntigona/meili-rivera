@@ -83,7 +83,11 @@ class Meili_Rivera_Client
 
         try {
             Meili_Rivera_Plugin::log('[Meili Rivera] Updating filterableAttributes: ' . json_encode($filterable));
-            $this->client->index($index_name)->updateFilterableAttributes(array_values($filterable));
+            $index = $this->client->index($index_name);
+            $index->updateFilterableAttributes(array_values($filterable));
+            
+            // Increase maxValuesPerFacet to support large taxonomies (e.g., autoria with 800+ items)
+            $index->updateFaceting(['maxValuesPerFacet' => 3000]);
         } catch (\Exception $e) {
             Meili_Rivera_Plugin::log('Meili Settings Error: ' . $e->getMessage());
         }
