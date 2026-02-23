@@ -5,6 +5,17 @@ Todas as mudanças notáveis ​​neste projeto serão documentadas neste arqui
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 e este projeto adere ao [PrideVer](https://pridever.org/).
 
+## [0.1.0] - 2026-02-23
+
+### Adicionado
+
+- **Busca Textual em Filtros**: Adicionado um campo de busca textual dentro do bloco de filtros (usando a Interactivity API) para filtrar as opções de facetas em tempo real, ignorando acentos e maiúsculas/minúsculas.
+- **Aumento do Limite de Facetas**: O limite padrão de facetas do Meilisearch (`maxValuesPerFacet`) foi aumentado de 100 para 3000, permitindo a exibição completa de taxonomias com muitos itens (ex: autoria, organização).
+
+### Corrigido
+
+- **Build do Webpack**: Corrigido o problema onde o `view.js` era deletado durante o processo de build duplo (editor e view) ao definir `clean: false` no `webpack.config.js`.
+
 ## [0.0.3] - 2026-02-23
 
 ### Adicionado
