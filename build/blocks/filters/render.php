@@ -55,9 +55,8 @@ if (empty($facet_data) && taxonomy_exists($taxonomy)) {
 <?php // The <div> is the Interactivity API root element. <details> is a presentational wrapper inside. ?>
 <div <?php echo get_block_wrapper_attributes(['class' => 'meili-filter-block']); ?>
     data-wp-interactive="meiliRivera/search"
-    data-wp-router-region="meili-filters-<?php echo esc_attr($taxonomy); ?>"
     data-wp-context='<?php echo esc_attr(wp_json_encode(["searchQuery" => ""])); ?>'>
-    <details class="meili-filter-accordion" <?php echo !empty($active_filters) ? 'open' : ''; ?>>
+    <details class="meili-filter-accordion">
         <summary class="meili-filter-summary">
             <?php echo esc_html($label); ?>
         </summary>
