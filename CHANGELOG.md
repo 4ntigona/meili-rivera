@@ -9,6 +9,7 @@ e este projeto adere ao [PrideVer](https://pridever.org/).
 
 ### Adicionado
 
+- **Aumento do Limite de Resultados**: O limite de resultados totais do Meilisearch (`maxTotalHits`) foi aumentado de 1000 para 100000, permitindo a exibição de todos os produtos na página de catálogo.
 - **Busca Textual em Filtros**: Adicionado um campo de busca textual dentro do bloco de filtros (usando a Interactivity API) para filtrar as opções de facetas em tempo real, ignorando acentos e maiúsculas/minúsculas.
 - **Aumento do Limite de Facetas**: O limite padrão de facetas do Meilisearch (`maxValuesPerFacet`) foi aumentado de 100 para 3000, permitindo a exibição completa de taxonomias com muitos itens (ex: autoria, organização).
 

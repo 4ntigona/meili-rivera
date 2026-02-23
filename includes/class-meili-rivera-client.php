@@ -88,6 +88,9 @@ class Meili_Rivera_Client
             
             // Increase maxValuesPerFacet to support large taxonomies (e.g., autoria with 800+ items)
             $index->updateFaceting(['maxValuesPerFacet' => 3000]);
+
+            // Increase maxTotalHits to allow displaying more than 1000 results (e.g., for the /loja page)
+            $index->updatePagination(['maxTotalHits' => 100000]);
         } catch (\Exception $e) {
             Meili_Rivera_Plugin::log('Meili Settings Error: ' . $e->getMessage());
         }
