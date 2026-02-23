@@ -19278,3 +19278,11 @@
 [2026-02-23 19:20:05] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
 [2026-02-23 19:20:05] [Ariadne] --- THREAD START --- Query: 0000000000000cfd0000000000000000
 [2026-02-23 19:20:05] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 19:22:06] [Ariadne] --- THREAD START --- Query: 00000000000009f00000000000000000
+[2026-02-23 19:22:06] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 19:22:06] [Ariadne] --- THREAD START --- Query: 00000000000009f00000000000000000
+[2026-02-23 19:22:06] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 19:22:06] [Ariadne] --- THREAD START --- Query: 00000000000009f00000000000000000
+[2026-02-23 19:22:06] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 19:22:06] [Ariadne] --- THREAD START --- Query: 0000000000000cfd0000000000000000
+[2026-02-23 19:22:06] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO

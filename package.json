@@ -12,6 +12,6 @@
         "meilisearch": "^0.38.0"
     },
     "devDependencies": {
-        "@wordpress/scripts": "^27.0.0"
+        "@wordpress/scripts": "^31.5.0"
     }
 }

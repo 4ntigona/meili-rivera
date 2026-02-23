@@ -60,6 +60,9 @@ class Meili_Rivera_Admin_Page
             update_option(MEILI_RIVERA_OPTION_TAX, []);
         }
 
+        // Trigger settings sync with Meilisearch
+        Meili_Rivera_Client::instance()->ensure_filterable_attributes();
+
         add_settings_error('meili_rivera_messages', 'meili_rivera_message', 'Configurações salvas com sucesso.', 'success');
     }
 
