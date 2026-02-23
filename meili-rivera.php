@@ -97,7 +97,18 @@ final class Meili_Rivera_Plugin
     public function register_blocks()
     {
         // Register Blocks using metadata (Standard WP 6.5+)
-        register_block_type(MEILI_RIVERA_PATH . 'build/blocks/filters');
+        $block_data = register_block_type(MEILI_RIVERA_PATH . 'build/blocks/filters');
+
+        // Pass the saved taxonomies and ACF fields to the editor JS.
+        // This enables the SelectControl dropdown to be populated from plugin settings.
+        if ($block_data && $block_data->editor_script_handles) {
+            foreach ($block_data->editor_script_handles as $handle) {
+                wp_localize_script($handle, 'MeiliRiveraEditorData', [
+                    'taxonomies' => get_option(MEILI_RIVERA_OPTION_TAX, ['product_cat', 'product_tag']),
+                    'acfFields' => get_option(MEILI_RIVERA_OPTION_ACF, []),
+                ]);
+            }
+        }
 
         // Force interactivity enqueuing as a safeguard
         add_action('wp_enqueue_scripts', function () {
