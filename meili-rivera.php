@@ -65,6 +65,7 @@ final class Meili_Rivera_Plugin
         require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-indexer.php';
         require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-synchronizer.php';
         require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-query-interceptor.php';
+        require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-router-wrapper.php';
 
         if (is_admin()) {
             require_once MEILI_RIVERA_PATH . 'admin/class-meili-rivera-admin-page.php';
@@ -80,6 +81,9 @@ final class Meili_Rivera_Plugin
         // Register the global interceptor early
         global $meili_rivera_query_interceptor;
         $meili_rivera_query_interceptor = new Meili_Rivera_Query_Interceptor();
+
+        // Initialize Router Wrapper
+        new Meili_Rivera_Router_Wrapper();
 
         if (is_admin()) {
             new Meili_Rivera_Admin_Page();

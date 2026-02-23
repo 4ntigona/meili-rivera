@@ -2,13 +2,14 @@
  * Meili Rivera Interactivity Store
  */
 import { store, getContext } from '@wordpress/interactivity';
+import { actions as routerActions } from '@wordpress/interactivity-router';
 
 export const { state, actions, callbacks } = store('meiliRivera/search', {
     state: {
         // Initial state is populated by PHP via wp_interactivity_state
     },
     actions: {
-        setFilter: (args) => {
+        setFilter: function* (args) {
             const event = args.event || (args.target ? args : null);
             const context = getContext();
 
@@ -46,7 +47,7 @@ export const { state, actions, callbacks } = store('meiliRivera/search', {
             url.searchParams.delete('product-page');
             url.searchParams.delete('paged');
 
-            window.location.assign(url.toString());
+            yield routerActions.navigate(url.toString());
         },
         updateSearchQuery: (event) => {
             const context = getContext();

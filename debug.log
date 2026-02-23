@@ -24392,3 +24392,445 @@
 [2026-02-23 20:17:11] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
 [2026-02-23 20:17:11] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
 [2026-02-23 20:17:11] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 0000000000000a700000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 0000000000000a700000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 0000000000000a700000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 0000000000000d5d0000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000006810000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=Y, is_search=N -> Result=YES
+[2026-02-23 20:21:35] [Ariadne] Implicit taxonomy filter: product_cat = linguistica
+[2026-02-23 20:21:35] [Ariadne] Meili Search: term='', page=1, offset=0, filter='(product_cat = "linguistica")'
+[2026-02-23 20:21:35] [Ariadne] Meili Result: hits=16, total=441
+[2026-02-23 20:21:35] [Ariadne] Setting post__in: 26124,26123,26116,26075,26070,26057,26008,25991,25990,25989,25960,25957,25931,25896,25877,25841
+[2026-02-23 20:21:35] [Ariadne] WP Override: offset=0. Original paged=0, PPP=16
+[2026-02-23 20:21:35] [Ariadne] found_posts override for 00000000000006810000000000000000: returning 441
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 000000000000113c0000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 000000000000111b0000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000011130000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000011200000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 000000000000111e0000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 0000000000000d5c0000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000011270000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 000000000000112a0000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000011370000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000011360000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000011280000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000011380000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000011150000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000011600000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:35] [Ariadne] --- THREAD START --- Query: 00000000000011600000000000000000
+[2026-02-23 20:21:35] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 00000000000002500000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 00000000000011740000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 00000000000012860000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 00000000000012860000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 00000000000009f00000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 00000000000009f00000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 00000000000009f00000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 0000000000000cfd0000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:36] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:21:36] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 0000000000000a700000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 0000000000000a700000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 0000000000000a700000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 0000000000000d5d0000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000006810000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=Y, is_search=N -> Result=YES
+[2026-02-23 20:21:40] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-23 20:21:40] [Ariadne] Meili Result: hits=16, total=1000
+[2026-02-23 20:21:40] [Ariadne] Setting post__in: 26264,26263,26181,26180,26178,26177,26176,26175,26174,26173,26171,26170,26169,26168,26167,26138
+[2026-02-23 20:21:40] [Ariadne] WP Override: offset=0. Original paged=0, PPP=16
+[2026-02-23 20:21:40] [Ariadne] found_posts override for 00000000000006810000000000000000: returning 1000
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 000000000000115b0000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 000000000000113f0000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 000000000000113b0000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 000000000000113a0000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000011400000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 0000000000000d5c0000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000011440000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000011480000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000011550000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000011540000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000011460000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000011560000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000011590000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 000000000000124b0000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 000000000000124b0000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000002500000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000012930000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000012b90000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000012b90000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:40] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:21:40] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 0000000000000a700000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 0000000000000a700000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 0000000000000a700000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 0000000000000d5d0000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000006810000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=Y, is_search=N -> Result=YES
+[2026-02-23 20:21:41] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-23 20:21:41] [Ariadne] Meili Result: hits=16, total=1000
+[2026-02-23 20:21:41] [Ariadne] Setting post__in: 26264,26263,26181,26180,26178,26177,26176,26175,26174,26173,26171,26170,26169,26168,26167,26138
+[2026-02-23 20:21:41] [Ariadne] WP Override: offset=0. Original paged=0, PPP=16
+[2026-02-23 20:21:41] [Ariadne] found_posts override for 00000000000006810000000000000000: returning 1000
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 000000000000115b0000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 000000000000113f0000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 000000000000113b0000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 000000000000113a0000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000011400000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 0000000000000d5c0000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000011440000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000011480000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000011550000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000011540000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000011460000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000011560000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000011590000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 000000000000124b0000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 000000000000124b0000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000002500000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000012930000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000012b90000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:41] [Ariadne] --- THREAD START --- Query: 00000000000012b90000000000000000
+[2026-02-23 20:21:41] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:42] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:21:42] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:42] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:21:42] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:21:42] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:21:42] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 0000000000000d610000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000006850000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=Y, is_search=N -> Result=YES
+[2026-02-23 20:25:52] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-23 20:25:52] [Ariadne] Meili Result: hits=16, total=1000
+[2026-02-23 20:25:52] [Ariadne] Setting post__in: 26264,26263,26181,26180,26178,26177,26176,26175,26174,26173,26171,26170,26169,26168,26167,26138
+[2026-02-23 20:25:52] [Ariadne] WP Override: offset=0. Original paged=0, PPP=16
+[2026-02-23 20:25:52] [Ariadne] found_posts override for 00000000000006850000000000000000: returning 1000
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 000000000000115e0000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000011420000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 000000000000113e0000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 000000000000113d0000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000011430000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 0000000000000d600000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000011470000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 000000000000114b0000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000011580000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000011570000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000011490000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000011590000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 000000000000115c0000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000002520000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000012970000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000012bd0000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000012bd0000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 0000000000000d020000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 0000000000000d610000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000006850000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=Y, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:52] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-23 20:25:52] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:55] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:55] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:55] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:55] [Ariadne] --- THREAD START --- Query: 0000000000000d610000000000000000
+[2026-02-23 20:25:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:55] [Ariadne] --- THREAD START --- Query: 00000000000006850000000000000000
+[2026-02-23 20:25:55] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=Y, is_search=N -> Result=YES
+[2026-02-23 20:25:55] [Ariadne] Meili Search: term='', page=1, offset=0, filter='(product_cat = "administracao")'
+[2026-02-23 20:25:55] [Ariadne] Meili Result: hits=16, total=25
+[2026-02-23 20:25:55] [Ariadne] Setting post__in: 25119,23480,23444,23442,23079,22943,22834,22764,22722,22663,22551,22550,22543,22449,22331,22323
+[2026-02-23 20:25:55] [Ariadne] WP Override: offset=0. Original paged=0, PPP=16
+[2026-02-23 20:25:55] [Ariadne] found_posts override for 00000000000006850000000000000000: returning 25
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 000000000000113f0000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000011230000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000011160000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 000000000000111d0000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000011240000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000011270000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 000000000000111e0000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 0000000000000d600000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 000000000000112a0000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000011300000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 000000000000113e0000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000011190000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 000000000000112e0000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 000000000000113c0000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000011470000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000011660000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000011660000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000002520000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 000000000000120a0000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000012870000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:56] [Ariadne] --- THREAD START --- Query: 00000000000012870000000000000000
+[2026-02-23 20:25:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 0000000000000d610000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000006850000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=Y, is_search=N -> Result=YES
+[2026-02-23 20:25:57] [Ariadne] Meili Search: term='', page=1, offset=0, filter='(product_cat = "administracao" OR product_cat = "analise-do-discurso")'
+[2026-02-23 20:25:57] [Ariadne] Meili Result: hits=16, total=120
+[2026-02-23 20:25:57] [Ariadne] Setting post__in: 26123,26070,26064,25990,25989,25960,25957,25931,25877,25837,25722,25705,25698,25695,25421,25363
+[2026-02-23 20:25:57] [Ariadne] WP Override: offset=0. Original paged=0, PPP=16
+[2026-02-23 20:25:57] [Ariadne] found_posts override for 00000000000006850000000000000000: returning 120
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 000000000000114d0000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000011310000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000011240000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 000000000000112b0000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000011320000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000011350000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 000000000000112c0000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 0000000000000d600000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000011380000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 000000000000113e0000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 000000000000114c0000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000011270000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 000000000000113c0000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 000000000000114a0000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000011550000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000011740000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000011740000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000002520000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000012110000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 000000000000129a0000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 000000000000129a0000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:57] [Ariadne] --- THREAD START --- Query: 0000000000000d020000000000000000
+[2026-02-23 20:25:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 0000000000000d610000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000006850000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=Y, is_search=N -> Result=YES
+[2026-02-23 20:25:58] [Ariadne] Meili Search: term='', page=1, offset=0, filter='(product_cat = "administracao" OR product_cat = "analise-do-discurso" OR product_cat = "arquitetura-e-urbanismo")'
+[2026-02-23 20:25:58] [Ariadne] Meili Result: hits=16, total=137
+[2026-02-23 20:25:58] [Ariadne] Setting post__in: 26123,26070,26064,25990,25989,25960,25957,25954,25931,25877,25837,25722,25705,25698,25695,25657
+[2026-02-23 20:25:58] [Ariadne] WP Override: offset=0. Original paged=0, PPP=16
+[2026-02-23 20:25:58] [Ariadne] found_posts override for 00000000000006850000000000000000: returning 137
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000011330000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000011170000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 000000000000110a0000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000011110000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000011180000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 000000000000111b0000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000011120000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 0000000000000d600000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 000000000000111e0000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000011240000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000011320000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 000000000000110d0000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000011220000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000011300000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 000000000000113b0000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 000000000000115a0000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 000000000000115a0000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000002520000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000012050000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000012870000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 20:25:58] [Ariadne] --- THREAD START --- Query: 00000000000012870000000000000000
+[2026-02-23 20:25:58] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
