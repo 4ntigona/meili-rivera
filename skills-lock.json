@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "meilisearch-admin": {
+      "source": "civitai/civitai",
+      "sourceType": "github",
+      "computedHash": "7e693cb2b6b9867d0490452bcc1bd70afc173a59bcb399fbd99f0a67063a7e50"
+    }
+  }
+}
