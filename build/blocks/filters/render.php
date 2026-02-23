@@ -15,7 +15,7 @@ if (isset($_GET[$taxonomy])) {
 
 $facet_data = [];
 
-// Use Meilisearch facets if interceptor has result (active Meili query)
+// Use Meilisearch facets if interceptor has results (active Meili query)
 if ($meili_rivera_query_interceptor && $meili_rivera_query_interceptor->get_meili_results()) {
     $results = $meili_rivera_query_interceptor->get_meili_results();
     if (isset($results['facets'][$taxonomy])) {
@@ -52,41 +52,47 @@ if (empty($facet_data) && taxonomy_exists($taxonomy)) {
     }
 }
 ?>
-<details <?php echo get_block_wrapper_attributes(['class' => 'meili-filter-accordion']); ?>
+<?php // The <div> is the Interactivity API root element. <details> is a presentational wrapper inside. ?>
+<div <?php echo get_block_wrapper_attributes(['class' => 'meili-filter-block']); ?>
     data-wp-interactive="meiliRivera/search">
-    <summary class="meili-filter-summary">
-        <?php echo esc_html($label); ?>
-    </summary>
+    <details class="meili-filter-accordion">
+        <summary class="meili-filter-summary">
+            <?php echo esc_html($label); ?>
+        </summary>
 
-    <?php if (empty($facet_data)): ?>
-        <p class="meili-filter-empty">Nenhuma opção disponível.</p>
-    <?php else: ?>
-        <ul class="meili-filters-list">
-            <?php foreach ($facet_data as $item):
-                $context = [
-                    'listName' => $taxonomy,
-                    'value' => $item['slug'],
-                ];
-                ?>
-                <li data-wp-context="<?php echo esc_attr(wp_json_encode($context)); ?>">
-                    <label class="meili-filter-label">
-                        <input type="checkbox" data-wp-on--change="actions.setFilter" <?php checked(in_array($item['slug'], $active_filters)); ?>>
-                        <span class="meili-filter-name"><?php echo esc_html($item['name']); ?></span>
-                        <?php if ($show_count): ?>
-                            <span class="meili-filter-count">(<?php echo (int) $item['count']; ?>)</span>
-                        <?php endif; ?>
-                    </label>
-                </li>
-            <?php endforeach; ?>
-        </ul>
-    <?php endif; ?>
-</details>
+        <?php if (empty($facet_data)): ?>
+            <p class="meili-filter-empty">Nenhuma opção disponível.</p>
+        <?php else: ?>
+            <ul class="meili-filters-list">
+                <?php foreach ($facet_data as $item):
+                    $context = [
+                        'listName' => $taxonomy,
+                        'value' => $item['slug'],
+                    ];
+                    ?>
+                    <li data-wp-context="<?php echo esc_attr(wp_json_encode($context)); ?>">
+                        <label class="meili-filter-label">
+                            <input type="checkbox" data-wp-on--change="actions.setFilter" <?php checked(in_array($item['slug'], $active_filters)); ?>>
+                            <span class="meili-filter-name"><?php echo esc_html($item['name']); ?></span>
+                            <?php if ($show_count): ?>
+                                <span class="meili-filter-count">(<?php echo (int) $item['count']; ?>)</span>
+                            <?php endif; ?>
+                        </label>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        <?php endif; ?>
+    </details>
+</div>
 
 <style>
+    .meili-filter-block {
+        margin-block-end: 12px;
+    }
+
     .meili-filter-accordion {
         border: 1px solid #e2e8f0;
         border-radius: 6px;
-        margin-block-end: 12px;
     }
 
     .meili-filter-summary {
