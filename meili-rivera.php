@@ -66,6 +66,10 @@ final class Meili_Rivera_Plugin
         require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-synchronizer.php';
         require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-query-interceptor.php';
 
+        if (defined('WP_CLI') && WP_CLI) {
+            require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-cli.php';
+        }
+
         if (is_admin()) {
             require_once MEILI_RIVERA_PATH . 'admin/class-meili-rivera-admin-page.php';
         }
@@ -92,12 +96,29 @@ final class Meili_Rivera_Plugin
         // Keeping this as it's the standard way to pass config to Interactivity API state in some patterns,
         // although wp_interactivity_state() is preferred. Let's use the latter for 6.9 standards.
         add_action('init', [$this, 'initialize_interactivity_state']);
+
+        // Wrap WooCommerce shop loop with Interactivity API router region for instant search
+        add_action('woocommerce_before_shop_loop', function() {
+            echo '<div data-wp-router-region="meili-product-list">';
+        }, 5);
+        add_action('woocommerce_after_shop_loop', function() {
+            echo '</div>';
+        }, 999);
+        
+        // Also wrap the no products found message
+        add_action('woocommerce_no_products_found', function() {
+            echo '<div data-wp-router-region="meili-product-list">';
+        }, 5);
+        add_action('woocommerce_no_products_found', function() {
+            echo '</div>';
+        }, 999);
     }
 
     public function register_blocks()
     {
         // Register Blocks using metadata (Standard WP 6.5+)
         $block_data = register_block_type(MEILI_RIVERA_PATH . 'build/blocks/filters');
+        register_block_type(MEILI_RIVERA_PATH . 'build/blocks/search-bar');
 
         // Pass the saved taxonomies and ACF fields to the editor JS.
         // This enables the SelectControl dropdown to be populated from plugin settings.

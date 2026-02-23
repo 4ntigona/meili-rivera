@@ -5,6 +5,21 @@ Todas as mudanças notáveis ​​neste projeto serão documentadas neste arqui
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 e este projeto adere ao [PrideVer](https://pridever.org/).
 
+## [0.2.0] - 2026-02-23
+
+### Adicionado
+
+- **Bloco de Busca (Search Bar)**: Novo bloco `meili-rivera/search-bar` com suporte a busca instantânea (Instant Search) integrada à Interactivity API.
+- **Navegação Client-Side (SPA)**: Integração do pacote `@wordpress/interactivity-router` para atualizar os resultados da busca e filtros sem recarregar a página, proporcionando uma experiência fluida.
+- **Busca Global (Search Everything)**: Configuração do `searchableAttributes` no Meilisearch para incluir automaticamente todas as taxonomias, campos ACF e atributos do WooCommerce, permitindo buscar por qualquer termo associado ao produto.
+- **Comando WP-CLI**: Adicionado o comando `wp meili-rivera sync` para sincronização em massa de produtos via terminal, ideal para catálogos grandes.
+- **Regiões de Roteamento**: O loop de produtos do WooCommerce agora é envolvido automaticamente com `data-wp-router-region="meili-product-list"` para suportar atualizações dinâmicas.
+
+### Corrigido
+
+- **Sincronização WP-CLI**: Corrigido o cálculo de paginação no comando `wp meili-rivera sync` que impedia a sincronização completa de catálogos maiores que 1000 produtos devido a divergência no tamanho do lote (`BATCH_SIZE`).
+- **Bug de Busca Instantânea**: Resolvido o problema onde a busca instantânea recarregava a página a cada caractere digitado, interrompendo a digitação do usuário.
+
 ## [0.1.0] - 2026-02-23
 
 ### Adicionado

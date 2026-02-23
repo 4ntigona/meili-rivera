@@ -40,6 +40,8 @@ class Meili_Rivera_Indexer
         $document = [
             'id' => $post_id,
             'post_title' => $title,
+            'post_content' => wp_strip_all_tags($product->get_description()),
+            'post_excerpt' => wp_strip_all_tags($product->get_short_description()),
             'permalink' => get_permalink($post_id),
             'image' => get_the_post_thumbnail_url($post_id, 'large') ?: 'https://placehold.co/300x400/white/1559ed?text=' . urlencode($formatted_title),
 

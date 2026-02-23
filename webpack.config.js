@@ -51,6 +51,7 @@ const createConfig = (name, entry, isModule = false) => {
 module.exports = [
     createConfig('editor', {
         'blocks/filters/index': path.resolve(process.cwd(), 'src/blocks/filters/index.js'),
+        'blocks/search-bar/index': path.resolve(process.cwd(), 'src/blocks/search-bar/index.js'),
     }),
     createConfig('view', {
         'blocks/filters/view': path.resolve(process.cwd(), 'src/blocks/filters/view.js'),

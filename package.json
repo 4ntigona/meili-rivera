@@ -9,6 +9,7 @@
     },
     "dependencies": {
         "@wordpress/interactivity": "^6.5.0",
+        "@wordpress/interactivity-router": "^2.40.0",
         "meilisearch": "^0.38.0"
     },
     "devDependencies": {

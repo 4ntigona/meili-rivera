@@ -1,0 +1,38 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "meili-rivera/search-bar",
+    "version": "0.2.0",
+    "title": "Meili Rivera: Barra de Busca",
+    "category": "widgets",
+    "icon": "search",
+    "description": "Barra de busca textual instantânea integrada ao Meilisearch.",
+    "supports": {
+        "html": false,
+        "align": true,
+        "interactivity": true,
+        "spacing": {
+            "margin": true,
+            "padding": true
+        }
+    },
+    "attributes": {
+        "placeholder": {
+            "type": "string",
+            "default": "Buscar produtos..."
+        },
+        "buttonText": {
+            "type": "string",
+            "default": "Buscar"
+        },
+        "isInstant": {
+            "type": "boolean",
+            "default": false
+        }
+    },
+    "textdomain": "meili-rivera",
+    "editorScript": "file:./index.js",
+    "viewScriptModule": "file:../filters/view.js",
+    "style": "file:./style.css",
+    "render": "file:./render.php"
+}

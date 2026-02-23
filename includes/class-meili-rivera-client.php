@@ -86,6 +86,22 @@ class Meili_Rivera_Client
             $index = $this->client->index($index_name);
             $index->updateFilterableAttributes(array_values($filterable));
             
+            // Set searchable attributes to prioritize title, then content, then taxonomies/ACF
+            $searchable = array_merge(
+                ['post_title', 'post_excerpt', 'post_content'],
+                $taxonomies,
+                $acf_fields
+            );
+            
+            // Add WooCommerce attributes
+            $wc_attributes = function_exists('wc_get_attribute_taxonomies') ? wp_list_pluck(wc_get_attribute_taxonomies(), 'attribute_name') : [];
+            $wc_attribute_keys = array_map(function($attr) { return 'pa_' . $attr; }, $wc_attributes);
+            
+            $searchable = array_merge($searchable, $wc_attribute_keys);
+            $searchable = array_unique($searchable);
+            
+            $index->updateSearchableAttributes(array_values($searchable));
+
             // Increase maxValuesPerFacet to support large taxonomies (e.g., autoria with 800+ items)
             $index->updateFaceting(['maxValuesPerFacet' => 3000]);
 
