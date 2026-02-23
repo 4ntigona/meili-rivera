@@ -1,1 +1,0 @@
-(()=>{"use strict";const e=window.React,r=window.wp.blocks,t=window.wp.blockEditor,n=JSON.parse('{"UU":"meili-rivera/products"}');(0,r.registerBlockType)(n.UU,{edit:function(){const r=(0,t.useBlockProps)();return(0,e.createElement)("div",{...r},(0,e.createElement)("p",null,"Meili Rivera Products Block (Preview no Frontend)"))},save:function(){return null}})})();

@@ -55,4 +55,37 @@ class Meili_Rivera_Client
             return false;
         }
     }
+
+    /**
+     * Update the index settings to ensure all searchable taxonomies and ACF fields
+     * are configured as filterableAttributes in Meilisearch.
+     */
+    public function ensure_filterable_attributes()
+    {
+        if (!$this->is_connected()) {
+            return;
+        }
+
+        $taxonomies = get_option(MEILI_RIVERA_OPTION_TAX, []);
+        if (empty($taxonomies)) {
+            $taxonomies = apply_filters('meili_rivera_default_taxonomies', ['product_cat', 'product_tag']);
+        }
+        $acf_fields = get_option(MEILI_RIVERA_OPTION_ACF, []);
+
+        $filterable = array_merge($taxonomies, $acf_fields);
+        // Also add native price fields for potential future range filters
+        $filterable[] = 'price';
+        $filterable[] = 'on_sale';
+
+        $filterable = array_unique($filterable);
+
+        $index_name = defined('MEILI_INDEX_NAME') ? MEILI_INDEX_NAME : 'wordpress_content';
+
+        try {
+            Meili_Rivera_Plugin::log('[Meili Rivera] Updating filterableAttributes: ' . json_encode($filterable));
+            $this->client->index($index_name)->updateFilterableAttributes(array_values($filterable));
+        } catch (\Exception $e) {
+            Meili_Rivera_Plugin::log('Meili Settings Error: ' . $e->getMessage());
+        }
+    }
 }

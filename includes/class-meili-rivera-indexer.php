@@ -71,8 +71,8 @@ class Meili_Rivera_Indexer
         foreach ($taxonomies_to_index as $tax) {
             $terms = wc_get_product_terms($post_id, $tax);
             if (!is_wp_error($terms) && !empty($terms)) {
-                // Field for Faceting (Strings)
-                $document[$tax] = wp_list_pluck($terms, 'name');
+                // Field for Faceting (Slugs are better for filtering)
+                $document[$tax] = wp_list_pluck($terms, 'slug');
 
                 // Field for Display (Rich Data)
                 // We append '_rich' to the key to avoid collision with the faceted array
@@ -169,7 +169,7 @@ class Meili_Rivera_Indexer
                 }
                 if ($type === 'taxonomy') {
                     $term = get_term($id);
-                    return ($term && !is_wp_error($term)) ? $term->name : '';
+                    return ($term && !is_wp_error($term)) ? $term->slug : '';
                 }
                 if ($type === 'user') {
                     $user = get_user_by('id', $id);
@@ -180,8 +180,8 @@ class Meili_Rivera_Indexer
             if (is_object($id)) {
                 if (isset($id->post_title))
                     return $id->post_title;
-                if (isset($id->name))
-                    return $id->name;
+                if (isset($id->slug))
+                    return $id->slug;
                 if (isset($id->display_name))
                     return $id->display_name;
             }

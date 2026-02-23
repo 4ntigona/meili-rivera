@@ -1,6 +1,8 @@
+console.log("[Meili Rivera] view.js LOADED (Raw Script Start)");
 /**
  * Filters Block View
  */
-import { store } from '@wordpress/interactivity';
+import { actions } from '../../store';
 
-// No specific actions needed here as they are in global store
+console.log("[Meili Rivera] Filters View Loaded");
+// Actions are now available for directives

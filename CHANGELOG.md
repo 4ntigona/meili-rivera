@@ -5,6 +5,24 @@ Todas as mudanças notáveis ​​neste projeto serão documentadas neste arqui
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 e este projeto adere ao [PrideVer](https://pridever.org/).
 
+## [0.0.3] - 2026-02-23
+
+### Adicionado
+
+- **Filter Label Resolution**: O bloco `meili-rivera/filters` agora resolve slugs de taxonomia para nomes legíveis (ex: `educacao-publica` → `Educação Pública`) usando `get_term_by` durante o render PHP.
+- **Filter-the-Filters (Facetagem Dinâmica)**: Ao ativar um filtro, os outros filtros passam a mostrar apenas as opções com produtos em comum. Comportamento padrão agora em toda instalação do bloco.
+
+### Corrigido
+
+- **Paginação no WooCommerce Catalog Block**: Removida a sobrescrita de `paged=1` no interceptor de query. O interceptor agora anula apenas o `offset` da SQL, preservando o estado interno de paginação dos blocos nativos do WooCommerce.
+- **404 ao Filtrar em Página Paginada**: A ação `setFilter` em `store.js` agora remove o segmento `/page/N/` do path antes de navegar, garantindo que qualquer filtro sempre redirecione para a página 1 dos resultados.
+
+## [0.0.2] - 2026-02-23
+
+### Corrigido
+
+- **Critical**: Corrigido erro de "Página Não Encontrada" (404) em páginas de produtos individuais. O interceptor de query agora ignora consultas singulares (ID ou slug), permitindo que o WordPress resolva permalinks nativamente enquanto mantém a busca em massa via Meilisearch para listagens e buscas.
+
 ## [0.0.1] - 2026-02-03
 
 ### Adicionado
@@ -17,3 +35,8 @@ e este projeto adere ao [PrideVer](https://pridever.org/).
 - **Interactivity API**: Store global `meiliRivera/search`.
 - **Blocos**: `meili-rivera/products`, `meili-rivera/filters`, `meili-rivera/pagination`.
 - Estrutura de pastas e build scripts (`@wordpress/scripts`).
+
+### Corrigido
+
+- Injeção de configurações do Meilisearch (Host/Key) no Frontend.
+- Inicialização do Store da Interactivity API nos blocos.

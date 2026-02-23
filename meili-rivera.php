@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Meili Rivera
  * Description:       Integra a busca do WordPress e WooCommerce com Meilisearch usando Interactivity API.
- * Version:           0.0.1
+ * Version:           0.0.2
  * Author:            RIVERA
  * Author URI:        https://pedrorivera.me
  * License:           GPL v2 or later
@@ -22,7 +22,7 @@ if (!defined('ABSPATH')) {
  */
 final class Meili_Rivera_Plugin
 {
-    const VERSION = '0.0.1';
+    const VERSION = '0.0.2';
 
     /**
      * @var Meili_Rivera_Plugin|null
@@ -64,6 +64,7 @@ final class Meili_Rivera_Plugin
         require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-client.php';
         require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-indexer.php';
         require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-synchronizer.php';
+        require_once MEILI_RIVERA_PATH . 'includes/class-meili-rivera-query-interceptor.php';
 
         if (is_admin()) {
             require_once MEILI_RIVERA_PATH . 'admin/class-meili-rivera-admin-page.php';
@@ -76,38 +77,53 @@ final class Meili_Rivera_Plugin
         Meili_Rivera_Client::instance();
         new Meili_Rivera_Synchronizer();
 
+        // Register the global interceptor early
+        global $meili_rivera_query_interceptor;
+        $meili_rivera_query_interceptor = new Meili_Rivera_Query_Interceptor();
+
         if (is_admin()) {
             new Meili_Rivera_Admin_Page();
         }
 
+        // Standard WP Hooks
         add_action('init', [$this, 'register_blocks']);
+
+        // Pass PHP Constants to JS Store via wp_head to fail-safe dependency issues
+        // Keeping this as it's the standard way to pass config to Interactivity API state in some patterns,
+        // although wp_interactivity_state() is preferred. Let's use the latter for 6.9 standards.
+        add_action('init', [$this, 'initialize_interactivity_state']);
     }
 
     public function register_blocks()
     {
-        // Register Blocks
-        register_block_type(MEILI_RIVERA_PATH . 'build/blocks/products');
+        // Register Blocks using metadata (Standard WP 6.5+)
         register_block_type(MEILI_RIVERA_PATH . 'build/blocks/filters');
-        register_block_type(MEILI_RIVERA_PATH . 'build/blocks/pagination');
 
-        // Pass PHP Constants to JS Store
-        add_action('enqueue_block_assets', function () {
+        // Force interactivity enqueuing as a safeguard
+        add_action('wp_enqueue_scripts', function () {
+            if (function_exists('wp_enqueue_interactivity')) {
+                wp_enqueue_interactivity();
+            } else {
+                wp_enqueue_script('wp-interactivity');
+            }
+        });
+    }
+
+    public function initialize_interactivity_state()
+    {
+        if (function_exists('wp_interactivity_state')) {
             $host = defined('MEILI_HOST') ? MEILI_HOST : 'http://127.0.0.1:7700';
             $key = defined('MEILI_PUBLIC_KEY') ? MEILI_PUBLIC_KEY : (defined('MEILI_MASTER_KEY') ? MEILI_MASTER_KEY : '');
             $index = defined('MEILI_INDEX_NAME') ? MEILI_INDEX_NAME : 'wordpress_content';
 
-            $data = [
-                'host' => $host,
-                'publicKey' => $key,
-                'indexName' => $index,
-            ];
-
-            wp_add_inline_script(
-                'meili-rivera-products-view-script', // This handle originates from block.json viewScriptModule or viewScript
-                'window.MeiliBlockData = ' . json_encode($data) . ';',
-                'before'
-            );
-        });
+            wp_interactivity_state('meiliRivera/search', [
+                'config' => [
+                    'host' => $host,
+                    'publicKey' => $key,
+                    'indexName' => $index,
+                ]
+            ]);
+        }
     }
 
     public function add_settings_link($links)
@@ -123,6 +139,14 @@ final class Meili_Rivera_Plugin
             self::$instance = new self();
         }
         return self::$instance;
+    }
+
+    public static function log($message)
+    {
+        $log_file = dirname(__FILE__) . '/debug.log';
+        $timestamp = date('Y-m-d H:i:s');
+        $msg = "[{$timestamp}] " . (is_array($message) || is_object($message) ? json_encode($message) : $message) . PHP_EOL;
+        file_put_contents($log_file, $msg, FILE_APPEND);
     }
 }
 
