@@ -51,7 +51,7 @@ $wrapper_attributes = get_block_wrapper_attributes(['class' => 'meili-search-bar
         
         <div class="meili-search-input-wrapper">
             <?php if ($show_icon && $icon_url && $icon_position === 'inside-left') : ?>
-                <img src="<?php echo esc_url($icon_url); ?>" class="meili-search-icon left" alt="Search" />
+                <img src="<?php echo esc_url($icon_url); ?>" class="left meili-search-icon" alt="Search" />
             <?php endif; ?>
 
             <input type="search" 
@@ -64,7 +64,7 @@ $wrapper_attributes = get_block_wrapper_attributes(['class' => 'meili-search-bar
                    style="<?php echo esc_attr($input_style); ?>" />
 
             <?php if ($show_icon && $icon_url && $icon_position === 'inside-right') : ?>
-                <img src="<?php echo esc_url($icon_url); ?>" class="meili-search-icon right" alt="Search" />
+                <img src="<?php echo esc_url($icon_url); ?>" class="right meili-search-icon" alt="Search" />
             <?php endif; ?>
         </div>
                

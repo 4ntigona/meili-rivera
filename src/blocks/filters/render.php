@@ -122,7 +122,14 @@ if ($checkbox_color) $checkbox_style .= "accent-color: {$checkbox_color}; ";
                         data-wp-style--display="callbacks.getDisplay"
                         style="<?php echo esc_attr($item_style); ?>">
                         <label class="meili-filter-label">
-                            <input type="checkbox" data-wp-on--change="actions.setFilter" <?php checked(in_array($item['slug'], $active_filters)); ?> style="<?php echo esc_attr($checkbox_style); ?>">
+                            <input type="checkbox"
+                                   name="<?php echo esc_attr($taxonomy); ?>"
+                                   value="<?php echo esc_attr($item['slug']); ?>"
+                                   data-list-name="<?php echo esc_attr($taxonomy); ?>"
+                                   data-filter-value="<?php echo esc_attr($item['slug']); ?>"
+                                   data-wp-on--change="actions.setFilter"
+                                   <?php checked(in_array($item['slug'], $active_filters)); ?>
+                                   style="<?php echo esc_attr($checkbox_style); ?>">
                             <span class="meili-filter-name"><?php echo esc_html($item['name']); ?></span>
                             <?php if ($show_count): ?>
                                 <span class="meili-filter-count">(<?php echo (int) $item['count']; ?>)</span>
