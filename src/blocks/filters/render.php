@@ -6,6 +6,18 @@ global $meili_rivera_query_interceptor;
 $taxonomy = isset($attributes['attribute']) ? $attributes['attribute'] : 'product_cat';
 $label = isset($attributes['label']) ? $attributes['label'] : 'Filtros';
 $show_count = isset($attributes['showCount']) ? (bool) $attributes['showCount'] : true;
+$is_open = isset($attributes['isOpen']) ? (bool) $attributes['isOpen'] : true;
+$sort_by = isset($attributes['sortBy']) ? $attributes['sortBy'] : 'count';
+
+// Styling attributes
+$title_font_size = isset($attributes['titleFontSize']) ? $attributes['titleFontSize'] : '';
+$title_color = isset($attributes['titleColor']) ? $attributes['titleColor'] : '';
+$title_padding = isset($attributes['titlePadding']) ? $attributes['titlePadding'] : '';
+
+$item_font_size = isset($attributes['itemFontSize']) ? $attributes['itemFontSize'] : '';
+$item_color = isset($attributes['itemColor']) ? $attributes['itemColor'] : '';
+$item_padding = isset($attributes['itemPadding']) ? $attributes['itemPadding'] : '';
+$checkbox_color = isset($attributes['checkboxColor']) ? $attributes['checkboxColor'] : '';
 
 // Active filters from URL
 $active_filters = [];
@@ -51,14 +63,41 @@ if (empty($facet_data) && taxonomy_exists($taxonomy)) {
         }
     }
 }
+
+// Sort facet data
+if ($sort_by === 'alphabetical') {
+    usort($facet_data, function($a, $b) {
+        return strcasecmp($a['name'], $b['name']);
+    });
+} else {
+    // Default is 'count' (descending)
+    usort($facet_data, function($a, $b) {
+        return $b['count'] - $a['count'];
+    });
+}
+
+// Build inline styles
+$title_style = '';
+if ($title_font_size) $title_style .= "font-size: {$title_font_size}; ";
+if ($title_color) $title_style .= "color: {$title_color}; ";
+if ($title_padding) $title_style .= "padding: {$title_padding}; ";
+
+$item_style = '';
+if ($item_font_size) $item_style .= "font-size: {$item_font_size}; ";
+if ($item_color) $item_style .= "color: {$item_color}; ";
+if ($item_padding) $item_style .= "padding: {$item_padding}; ";
+
+$checkbox_style = '';
+if ($checkbox_color) $checkbox_style .= "accent-color: {$checkbox_color}; ";
+
 ?>
 <?php // The <div> is the Interactivity API root element. <details> is a presentational wrapper inside. ?>
 <div <?php echo get_block_wrapper_attributes(['class' => 'meili-filter-block']); ?>
     data-wp-interactive="meiliRivera/search"
     data-wp-router-region="meili-filters-<?php echo esc_attr($taxonomy); ?>"
     data-wp-context='<?php echo esc_attr(wp_json_encode(["searchQuery" => ""])); ?>'>
-    <details class="meili-filter-accordion">
-        <summary class="meili-filter-summary">
+    <details class="meili-filter-accordion" <?php if ($is_open) echo 'open'; ?>>
+        <summary class="meili-filter-summary" style="<?php echo esc_attr($title_style); ?>">
             <?php echo esc_html($label); ?>
         </summary>
 
@@ -80,9 +119,10 @@ if (empty($facet_data) && taxonomy_exists($taxonomy)) {
                     ];
                     ?>
                     <li data-wp-context="<?php echo esc_attr(wp_json_encode($context)); ?>"
-                        data-wp-style--display="callbacks.getDisplay">
+                        data-wp-style--display="callbacks.getDisplay"
+                        style="<?php echo esc_attr($item_style); ?>">
                         <label class="meili-filter-label">
-                            <input type="checkbox" data-wp-on--change="actions.setFilter" <?php checked(in_array($item['slug'], $active_filters)); ?>>
+                            <input type="checkbox" data-wp-on--change="actions.setFilter" <?php checked(in_array($item['slug'], $active_filters)); ?> style="<?php echo esc_attr($checkbox_style); ?>">
                             <span class="meili-filter-name"><?php echo esc_html($item['name']); ?></span>
                             <?php if ($show_count): ?>
                                 <span class="meili-filter-count">(<?php echo (int) $item['count']; ?>)</span>

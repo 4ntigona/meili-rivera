@@ -28,6 +28,38 @@
         "isInstant": {
             "type": "boolean",
             "default": false
+        },
+        "inputPadding": {
+            "type": "string"
+        },
+        "inputFontSize": {
+            "type": "string"
+        },
+        "inputColor": {
+            "type": "string"
+        },
+        "buttonPadding": {
+            "type": "string"
+        },
+        "buttonFontSize": {
+            "type": "string"
+        },
+        "buttonColor": {
+            "type": "string"
+        },
+        "buttonBgColor": {
+            "type": "string"
+        },
+        "showIcon": {
+            "type": "boolean",
+            "default": false
+        },
+        "iconUrl": {
+            "type": "string"
+        },
+        "iconPosition": {
+            "type": "string",
+            "default": "inside-right"
         }
     },
     "textdomain": "meili-rivera",

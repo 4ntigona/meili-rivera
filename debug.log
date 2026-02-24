@@ -34467,3 +34467,721 @@
 [2026-02-23 23:51:49] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
 [2026-02-23 23:51:49] [Ariadne] --- THREAD START --- Query: 0000000000000d060000000000000000
 [2026-02-23 23:51:49] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 23:53:50] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 23:53:50] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 23:53:50] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 23:53:50] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 23:53:50] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-23 23:53:50] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-23 23:53:50] [Ariadne] --- THREAD START --- Query: 0000000000000d060000000000000000
+[2026-02-23 23:53:50] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:53] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:07:53] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:53] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:07:53] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:53] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:07:53] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:53] [Ariadne] --- THREAD START --- Query: 0000000000000d060000000000000000
+[2026-02-24 00:07:53] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:53] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:07:53] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:53] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:07:53] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:53] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:07:53] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000d650000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 00000000000006850000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=Y, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 00000000000015c30000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 00000000000015cc0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 00000000000015cf0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 00000000000015c30000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 00000000000015d00000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 00000000000015ca0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 00000000000015c30000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 00000000000015c50000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000d410000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:54] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:54] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000feb0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000feb0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000ff80000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000fef0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000015d00000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:55] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:55] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000feb0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000015ca0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000015cf0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000feb0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000feb0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000015ca0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 000000000000164e0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:55] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:55] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d410000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000016520000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:55] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:55] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000016520000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:55] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:55] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000017f80000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:55] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:55] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000018090000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:55] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:55] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000015d90000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 000000000000180d0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 000000000000164f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=Y -> Result=YES
+[2026-02-24 00:07:55] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:55] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000017f70000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000016520000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000015da0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000feb0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000feb0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000015d10000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000015d50000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000015d70000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000feb0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 00000000000015ca0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000feb0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000feb0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:55] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000a2f0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 0000000000000d420000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:56] [Ariadne] --- THREAD START --- Query: 000000000000124e0000000000000000
+[2026-02-24 00:07:56] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=N, is_search=N -> Result=YES
+[2026-02-24 00:07:56] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:07:56] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:07:57] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:07:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:57] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:07:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:57] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:07:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:57] [Ariadne] --- THREAD START --- Query: 0000000000000d060000000000000000
+[2026-02-24 00:07:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:57] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:57] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:07:57] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:07:57] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 0000000000000d650000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000006850000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=Y, is_search=Y -> Result=YES
+[2026-02-24 00:08:22] [Ariadne] Meili Search: term='bakh', page=1, offset=0, filter=''
+[2026-02-24 00:08:22] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012f20000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012d60000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012d20000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012d10000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012d70000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012e00000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012cb0000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012ef0000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012e30000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012f00000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000012fc0000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000013360000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:22] [Ariadne] --- THREAD START --- Query: 00000000000013360000000000000000
+[2026-02-24 00:08:22] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 00000000000002540000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 0000000000000d640000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 00000000000012a40000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 00000000000011900000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 00000000000011900000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 0000000000000d650000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 00000000000006850000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=Y, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:23] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:08:23] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 0000000000000d650000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000006850000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=Y, is_singular=N, is_main=Y, is_search=N -> Result=YES
+[2026-02-24 00:08:25] [Ariadne] Meili Search: term='', page=1, offset=0, filter=''
+[2026-02-24 00:08:25] [Ariadne] EXCEPTION: cURL error 7: Failed to connect to 127.0.0.1 port 7700 after 0 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:7700/indexes/wordpress_content/search
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012c50000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012a90000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012a50000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012a40000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012aa0000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012b30000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 000000000000129e0000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012c20000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012b60000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012c30000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012cf0000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000013080000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000013080000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000002540000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 0000000000000d640000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000011400000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012ec0000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000012ec0000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000009f90000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 0000000000000a740000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 0000000000000d650000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:25] [Ariadne] --- THREAD START --- Query: 00000000000006850000000000000000
+[2026-02-24 00:08:25] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=Y, is_search=N -> Result=NO
+[2026-02-24 00:08:59] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:08:59] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:59] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:08:59] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:59] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:08:59] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:08:59] [Ariadne] --- THREAD START --- Query: 0000000000000d060000000000000000
+[2026-02-24 00:08:59] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:10:55] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:10:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:10:55] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:10:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:10:55] [Ariadne] --- THREAD START --- Query: 00000000000009f50000000000000000
+[2026-02-24 00:10:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
+[2026-02-24 00:10:55] [Ariadne] --- THREAD START --- Query: 0000000000000d060000000000000000
+[2026-02-24 00:10:55] [Ariadne] Decision: is_prod=N, is_singular=N, is_main=N, is_search=N -> Result=NO
