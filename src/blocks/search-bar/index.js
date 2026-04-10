@@ -2,13 +2,15 @@ import { registerBlockType } from '@wordpress/blocks';
 import { useBlockProps, InspectorControls, PanelColorSettings, MediaUpload, MediaUploadCheck } from '@wordpress/block-editor';
 import { PanelBody, TextControl, ToggleControl, SelectControl, Button } from '@wordpress/components';
 import metadata from './block.json';
+import './style.css';
 
 registerBlockType(metadata.name, {
     edit: ({ attributes, setAttributes }) => {
         const { 
             placeholder, buttonText, isInstant, 
-            inputPadding, inputFontSize, inputColor,
-            buttonPadding, buttonFontSize, buttonColor, buttonBgColor,
+            inputPadding, inputFontSize, inputColor, inputBorder, inputBorderRadius,
+            buttonPadding, buttonFontSize, buttonColor, buttonBgColor, buttonBorder, buttonBorderRadius,
+            itemsGap,
             showIcon, iconUrl, iconPosition 
         } = attributes;
         
@@ -25,6 +27,11 @@ registerBlockType(metadata.name, {
                             help="Se ativado, a busca acontece enquanto o usuário digita (ideal para a página de catálogo). Se desativado, a busca só acontece ao clicar no botão ou pressionar Enter (ideal para o cabeçalho)."
                             checked={ isInstant }
                             onChange={ (val) => setAttributes({ isInstant: val }) }
+                        />
+                        <TextControl
+                            label="Espaçamento entre itens (Gap, ex: 8px)"
+                            value={ itemsGap }
+                            onChange={ (val) => setAttributes({ itemsGap: val }) }
                         />
                     </PanelBody>
 
@@ -43,6 +50,16 @@ registerBlockType(metadata.name, {
                             label="Espaçamento (Padding, ex: 10px 15px)"
                             value={ inputPadding }
                             onChange={ (val) => setAttributes({ inputPadding: val }) }
+                        />
+                        <TextControl
+                            label="Borda (ex: 1px solid #ccc)"
+                            value={ inputBorder }
+                            onChange={ (val) => setAttributes({ inputBorder: val }) }
+                        />
+                        <TextControl
+                            label="Raio da Borda (ex: 4px)"
+                            value={ inputBorderRadius }
+                            onChange={ (val) => setAttributes({ inputBorderRadius: val }) }
                         />
                     </PanelBody>
 
@@ -73,6 +90,16 @@ registerBlockType(metadata.name, {
                             label="Espaçamento (Padding, ex: 10px 20px)"
                             value={ buttonPadding }
                             onChange={ (val) => setAttributes({ buttonPadding: val }) }
+                        />
+                        <TextControl
+                            label="Borda (ex: 1px solid #000)"
+                            value={ buttonBorder }
+                            onChange={ (val) => setAttributes({ buttonBorder: val }) }
+                        />
+                        <TextControl
+                            label="Raio da Borda (ex: 4px)"
+                            value={ buttonBorderRadius }
+                            onChange={ (val) => setAttributes({ buttonBorderRadius: val }) }
                         />
                         <ToggleControl
                             label="Exibir Ícone"
@@ -128,10 +155,14 @@ registerBlockType(metadata.name, {
                         ]}
                     />
                 </InspectorControls>
-                <div className={`meili-search-bar-wrapper icon-pos-${iconPosition}`} style={{ display: 'flex', gap: '8px', width: '100%' }}>
+                <div className={`meili-search-bar-wrapper icon-pos-${iconPosition}`} style={{ display: 'flex', gap: itemsGap || '8px', width: '100%', flexWrap: 'nowrap' }}>
                     <div className="meili-search-input-wrapper" style={{ position: 'relative', display: 'flex', flexGrow: 1, alignItems: 'center' }}>
-                        {showIcon && iconPosition === 'inside-left' && iconUrl && (
-                            <img src={iconUrl} alt="Search Icon" className="meili-search-icon inside left" style={{ position: 'absolute', left: '10px', width: '20px', height: '20px' }} />
+                        {showIcon && iconPosition === 'inside-left' && (
+                            iconUrl ? (
+                                <img src={iconUrl} alt="Search Icon" className="meili-search-icon inside left" style={{ position: 'absolute', left: '10px', width: '20px', height: '20px' }} />
+                            ) : (
+                                <span className="meili-search-default-icon left" style={{ position: 'absolute', left: '10px', width: '20px', height: '20px', lineHeight: '20px', textAlign: 'center' }}>🔍</span>
+                            )
                         )}
                         <input 
                             type="text" 
@@ -142,13 +173,19 @@ registerBlockType(metadata.name, {
                                 padding: inputPadding, 
                                 fontSize: inputFontSize, 
                                 color: inputColor,
+                                border: inputBorder,
+                                borderRadius: inputBorderRadius,
                                 paddingLeft: showIcon && iconPosition === 'inside-left' ? '40px' : undefined,
                                 paddingRight: showIcon && iconPosition === 'inside-right' ? '40px' : undefined,
                                 width: '100%'
                             }}
                         />
-                        {showIcon && iconPosition === 'inside-right' && iconUrl && (
-                            <img src={iconUrl} alt="Search Icon" className="meili-search-icon inside right" style={{ position: 'absolute', right: '10px', width: '20px', height: '20px' }} />
+                        {showIcon && iconPosition === 'inside-right' && (
+                            iconUrl ? (
+                                <img src={iconUrl} alt="Search Icon" className="meili-search-icon inside right" style={{ position: 'absolute', right: '10px', width: '20px', height: '20px' }} />
+                            ) : (
+                                <span className="meili-search-default-icon right" style={{ position: 'absolute', right: '10px', width: '20px', height: '20px', lineHeight: '20px', textAlign: 'center' }}>🔍</span>
+                            )
                         )}
                     </div>
                     <button 
@@ -161,11 +198,18 @@ registerBlockType(metadata.name, {
                             padding: buttonPadding, 
                             fontSize: buttonFontSize, 
                             color: buttonColor, 
-                            backgroundColor: buttonBgColor 
+                            backgroundColor: buttonBgColor,
+                            border: buttonBorder,
+                            borderRadius: buttonBorderRadius,
+                            flexShrink: 0
                         }}
                     >
-                        {showIcon && iconPosition === 'button' && iconUrl && (
-                            <img src={iconUrl} alt="Search Icon" className="meili-search-button-icon" style={{ width: '20px', height: '20px' }} />
+                        {showIcon && iconPosition === 'button' && (
+                            iconUrl ? (
+                                <img src={iconUrl} alt="Search Icon" className="meili-search-button-icon" style={{ width: '20px', height: '20px' }} />
+                            ) : (
+                                <span className="meili-search-default-icon" style={{ width: '20px', height: '20px', lineHeight: '20px', textAlign: 'center' }}>🔍</span>
+                            )
                         )}
                         { buttonText }
                     </button>

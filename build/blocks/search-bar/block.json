@@ -38,6 +38,12 @@
     "inputColor": {
       "type": "string"
     },
+    "inputBorder": {
+      "type": "string"
+    },
+    "inputBorderRadius": {
+      "type": "string"
+    },
     "buttonPadding": {
       "type": "string"
     },
@@ -48,6 +54,15 @@
       "type": "string"
     },
     "buttonBgColor": {
+      "type": "string"
+    },
+    "buttonBorder": {
+      "type": "string"
+    },
+    "buttonBorderRadius": {
+      "type": "string"
+    },
+    "itemsGap": {
       "type": "string"
     },
     "showIcon": {
@@ -65,6 +80,6 @@
   "textdomain": "meili-rivera",
   "editorScript": "file:./index.js",
   "viewScriptModule": "file:../filters/view.js",
-  "style": "file:./style.css",
+  "style": "file:./style-index.css",
   "render": "file:./render.php"
 }
