@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Meili Rivera
  * Description:       Integra a busca do WordPress e WooCommerce com Meilisearch usando Interactivity API.
- * Version:           0.2.0-dev
+ * Version:           0.2.001
  * Author:            RIVERA
  * Author URI:        https://pedrorivera.me
  * License:           GPL v2 or later
@@ -22,7 +22,7 @@ if (!defined('ABSPATH')) {
  */
 final class Meili_Rivera_Plugin
 {
-    const VERSION = '0.0.2';
+    const VERSION = '0.2.001';
 
     /**
      * @var Meili_Rivera_Plugin|null

@@ -5,6 +5,14 @@ Todas as mudanças notáveis ​​neste projeto serão documentadas neste arqui
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 e este projeto adere ao [PrideVer](https://pridever.org/).
 
+## [0.2.001] - 2026-02-24
+
+### Corrigido
+
+- **Estabilidade dos Filtros (Facetas/Checkboxes)**: Tornado o handler `setFilter` resiliente a diferentes formatos de evento/target no frontend.
+- **Fallback de Navegação para Facetas**: Adicionado fallback em `view.js` para garantir navegação por URL ao acionar checkboxes de filtro, mesmo em cenários de binding inconsistente.
+- **Confiabilidade de Contexto dos Inputs**: Reforçado o envio de metadados (`data-list-name`, `data-filter-value`) nos checkboxes para evitar perda de contexto.
+
 ## [0.2.0] - 2026-02-23
 
 ### Adicionado

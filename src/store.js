@@ -11,16 +11,22 @@ export const { state, actions, callbacks } = store('meiliRivera/search', {
     },
     actions: {
         setFilter: (args) => {
-            const event = args.event || (args.target ? args : null);
+            const event = args?.event || args;
             const context = getContext();
 
-            if (!event || !event.target) {
+            const target = event?.target || event?.currentTarget || args?.target || args?.currentTarget;
+            if (!target) {
                 return;
             }
 
-            const listName = context.listName;
-            const value = context.value;
-            const isChecked = event.target.checked;
+            const listName = context?.listName || target.dataset?.listName || target.name;
+            const value = context?.value || target.dataset?.filterValue || target.value;
+
+            if (!listName || !value) {
+                return;
+            }
+
+            const isChecked = Boolean(target.checked);
 
             const url = new URL(window.location.href);
 

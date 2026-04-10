@@ -1,6 +1,6 @@
 {
     "name": "meili-rivera-frontend",
-    "version": "0.2.0-dev",
+    "version": "0.2.001",
     "description": "Frontend assets for Meili Rivera (Interactivity API)",
     "scripts": {
         "build": "wp-scripts build",

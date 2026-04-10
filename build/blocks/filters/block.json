@@ -27,6 +27,39 @@
     "showCount": {
       "type": "boolean",
       "default": true
+    },
+    "isOpen": {
+      "type": "boolean",
+      "default": true
+    },
+    "showHierarchy": {
+      "type": "boolean",
+      "default": false
+    },
+    "sortBy": {
+      "type": "string",
+      "default": "count"
+    },
+    "titleFontSize": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "titlePadding": {
+      "type": "string"
+    },
+    "itemFontSize": {
+      "type": "string"
+    },
+    "itemColor": {
+      "type": "string"
+    },
+    "itemPadding": {
+      "type": "string"
+    },
+    "checkboxColor": {
+      "type": "string"
     }
   }
 }
